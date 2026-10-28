@@ -1,0 +1,227 @@
+{
+  "slug": "vittallon-odontologia",
+  "negocio": {
+    "nome": "Vittallon Odontologia",
+    "logo": "brand/logo.png",
+    "whatsapp": "5543991135480",
+    "unidades": [
+      {
+        "bairro": "Jardim Boa Vista · Londrina",
+        "endereco": "Av. Santos Dumont, 1342 – Jd. Boa Vista, Londrina – PR, 86039-090",
+        "telefone": "(43) 3326-5714",
+        "horario": "Seg a sex, 7h30 às 18h · Sáb, 7h30 às 12h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#6A0A22",
+    "brand2": "#4A0718",
+    "ink": "#2A0B14",
+    "bg": "#FDFAF6",
+    "pulse": "#B8892E",
+    "radius": "8px",
+    "registro": "editorial",
+    "fontDisplay": "EB Garamond",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "A casa", "href": "#a-casa" },
+          { "texto": "Equipe", "href": "#equipe" },
+          { "texto": "Perguntas", "href": "#faq" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Londrina · Paraná",
+        "h1": "Implante, prótese e estética",
+        "lead": "Clínica odontológica na Avenida Santos Dumont, em Londrina. A Dra. Mériellen Purga responde tecnicamente e a avaliação é o primeiro passo.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "Nota 5,0 no Google · +1.000 avaliações · ",
+        "cardTitulo": "Agende sua avaliação",
+        "imagem": "midia/dra-meriellen.png",
+        "imagemAlt": "Dra. Mériellen Purga, responsável técnica da Vittallon, de jaleco vinho com o logo da clínica",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Implante unitário",
+          "Prótese protocolo",
+          "Ortodontia",
+          "Lentes e facetas",
+          "Estética restauradora",
+          "Dentaduras e pontes móveis",
+          "Limpeza",
+          "Tratamento de canal"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "A Vittallon em quatro números",
+        "itens": [
+          { "valor": "5,0", "rotulo": "de nota no Google" },
+          { "valor": "+1.000", "rotulo": "avaliações no Google" },
+          { "valor": "4", "rotulo": "salas de atendimento", "contar": 4 },
+          { "valor": "10", "rotulo": "vagas de estacionamento", "contar": 10 }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "A clínica",
+        "citacao": "Nós acreditamos que podemos transformar seu mundo.",
+        "autor": "Vittallon Odontologia",
+        "texto": [
+          "Uma clínica de quatro salas na Avenida Santos Dumont, em Londrina. Tudo começa na avaliação: é nela que o dentista olha o seu caso e diz o que faz sentido tratar, e em que ordem.",
+          "Implante, prótese protocolo, ortodontia, lentes de porcelana, restaurações estéticas, limpeza e canal. Quando o tratamento muda de fase, o paciente continua no mesmo endereço e com a mesma equipe."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que a Vittallon trata",
+        "lead": "Do dente que se perdeu ao sorriso que você quer mudar. Cada indicação sai da avaliação, não de um pacote pronto.",
+        "itens": [
+          {
+            "nome": "Implante unitário",
+            "descricao": "Repõe um dente perdido com um implante próprio, sem apoiar a peça nos dentes vizinhos. É a saída para quem perdeu um dente só.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Prótese protocolo",
+            "descricao": "Prótese fixa apoiada em implantes para quem perdeu todos os dentes de uma arcada. A avaliação diz se o osso e a saúde da boca permitem.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Próteses de porcelana, dentaduras e pontes móveis",
+            "descricao": "Soluções para repor dentes ausentes, da peça fixa de porcelana à prótese removível, conforme o caso e o orçamento de cada paciente.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Ortodontia",
+            "descricao": "Alinha dentes e mordida com acompanhamento durante todo o tratamento. Serve para o sorriso e para a mastigação.",
+            "icone": "check"
+          },
+          {
+            "nome": "Estética do sorriso",
+            "descricao": "Lentes de contato dentais, facetas e restaurações estéticas para mudar cor, formato, tamanho e alinhamento dos dentes.",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Limpeza e tratamento de canal",
+            "descricao": "A profilaxia remove placa e tártaro. O canal trata o dente por dentro quando a polpa inflama ou infecciona, para ele continuar na boca.",
+            "icone": "gota"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/a-casa.html" },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          {
+            "titulo": "Mensagem no WhatsApp",
+            "texto": "Você conta o que procura e escolhe o dia e o horário da avaliação.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "O dentista examina a sua boca e explica as opções de tratamento, com a ordem em que fazem sentido.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Tratamento",
+            "texto": "Implante, prótese, ortodontia ou estética: o procedimento acontece em uma das quatro salas da clínica.",
+            "icone": "dente"
+          },
+          {
+            "titulo": "Retorno e manutenção",
+            "texto": "Implantes, próteses e aparelhos pedem revisões periódicas. É nessa etapa que o tratamento se mantém ao longo dos anos.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/equipe.html" },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de agendar",
+        "itens": [
+          {
+            "p": "Preciso de avaliação antes de qualquer procedimento?",
+            "r": "Sim. É a avaliação que define qual tratamento faz sentido para o seu caso. Por isso ela é o primeiro passo."
+          },
+          {
+            "p": "Qual a diferença entre implante unitário e prótese protocolo?",
+            "r": "O implante unitário repõe um dente. A prótese protocolo é uma prótese fixa que repõe todos os dentes de uma arcada, apoiada em implantes. Qual dos dois serve para você é decisão da avaliação."
+          },
+          {
+            "p": "Onde estaciono?",
+            "r": "A clínica tem estacionamento superior e inferior, com 10 vagas no total."
+          },
+          {
+            "p": "A clínica é acessível a cadeirantes?",
+            "r": "Os banheiros têm acesso para cadeirantes. Se você precisar de algum apoio na chegada, avise na hora de agendar."
+          },
+          {
+            "p": "Que horários a clínica atende?",
+            "r": "De segunda a sexta, das 7h30 às 18h, e aos sábados, das 7h30 às 12h."
+          },
+          {
+            "p": "Como agendo a avaliação?",
+            "r": "Pelo WhatsApp, (43) 99113-5480, ou pelo telefone fixo, (43) 3326-5714."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "cartoes",
+      "data": { "titulo": "Onde fica a Vittallon" }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Mande uma mensagem pelo WhatsApp e escolha o horário. A clínica atende de segunda a sábado, em Londrina.",
+        "cta": "Agendar avaliação"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Proposta de site de demonstração, não é o site oficial da clínica. Todo procedimento é indicado após avaliação clínica, e os resultados variam de paciente para paciente."
+      }
+    }
+  ]
+}

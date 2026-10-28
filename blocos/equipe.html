@@ -1,0 +1,30 @@
+<section class="blk-equipe" id="equipe">
+  <div class="wrap">
+    <div class="blk-equipe__cab">
+      <div data-reveal>
+        <p class="blk-equipe__eyebrow">Quem recebe você</p>
+        <h2 class="blk-equipe__titulo">Uma equipe inteira de uniforme vinho</h2>
+      </div>
+      <p class="blk-equipe__lead" data-acende>A Dra. Mériellen Purga responde tecnicamente pela clínica (CRO 16754PR). O atendimento é feito por uma equipe grande, toda vestida na cor da marca. Quem chega sabe logo com quem está falando.</p>
+    </div>
+    <figure class="blk-equipe__foto" data-reveal>
+      <!--foto:midia/equipe.jpg|A equipe da Vittallon reunida na recepção, de uniforme vinho-->
+      <figcaption>A equipe da Vittallon Odontologia</figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+.blk-equipe{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 5%,var(--bg))}
+.blk-equipe .wrap{display:grid;gap:var(--sp-5)}
+.blk-equipe__eyebrow{margin:0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-equipe__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-equipe__lead{margin:0;max-width:40rem;line-height:1.65;color:var(--ink-soft)}
+.blk-equipe__foto{margin:0}
+.blk-equipe__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 30%;border-radius:var(--r-lg)}
+.blk-equipe__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-sm);color:var(--ink-dim)}
+@media (min-width:64rem){
+  .blk-equipe__cab{display:grid;grid-template-columns:5fr 6fr;gap:var(--sp-6,6rem);align-items:end}
+  .blk-equipe__foto img{aspect-ratio:16/8;object-position:center 28%}
+}
+</style>

@@ -1,0 +1,52 @@
+<section class="blk-casa" id="a-casa">
+  <div class="wrap blk-casa__grid">
+    <figure class="blk-casa__foto" data-reveal>
+      <!--foto:midia/fachada.jpg|Fachada da Vittallon Odontologia, com o logo na platibanda branca e o estacionamento na frente-->
+      <figcaption>Av. Santos Dumont, 1342 · Jardim Boa Vista, Londrina</figcaption>
+    </figure>
+    <div class="blk-casa__txt">
+      <p class="blk-casa__eyebrow" data-reveal>A casa</p>
+      <h2 class="blk-casa__titulo" data-reveal>Da vaga no estacionamento à sala de atendimento</h2>
+      <p class="blk-casa__lead" data-acende>Quem chega de carro entra por um estacionamento em dois níveis, passa por uma recepção ampla e climatizada e segue para uma das quatro salas de atendimento. Cada etapa do caminho já foi pensada para quem vem pela primeira vez.</p>
+      <ul class="blk-casa__fatos">
+        <li data-reveal style="--d:0ms">
+          <span class="blk-casa__ico"><!--icone:local--></span>
+          <div><strong>Estacionamento nos dois níveis</strong><span>Superior e inferior, com 10 vagas no total.</span></div>
+        </li>
+        <li data-reveal style="--d:90ms">
+          <span class="blk-casa__ico"><!--icone:spa--></span>
+          <div><strong>Recepção ampla e climatizada</strong><span>Espaço para esperar com conforto, sem pressa.</span></div>
+        </li>
+        <li data-reveal style="--d:180ms">
+          <span class="blk-casa__ico"><!--icone:dente--></span>
+          <div><strong>Quatro salas de atendimento</strong><span>Os tratamentos acontecem no mesmo endereço.</span></div>
+        </li>
+        <li data-reveal style="--d:270ms">
+          <span class="blk-casa__ico"><!--icone:check--></span>
+          <div><strong>Banheiros acessíveis</strong><span>Com acesso para cadeirantes.</span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-casa{padding-block:var(--sp-section)}
+.blk-casa__grid{display:grid;gap:var(--sp-5)}
+.blk-casa__foto{margin:0}
+.blk-casa__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r-lg)}
+.blk-casa__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-sm);color:var(--ink-dim)}
+.blk-casa__eyebrow{margin:0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-casa__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-casa__lead{margin:var(--sp-3) 0 0;max-width:38rem;line-height:1.65;color:var(--ink-soft)}
+.blk-casa__fatos{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-casa__fatos li{display:flex;gap:var(--sp-3);align-items:flex-start;padding:var(--sp-3) var(--sp-4);background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r)}
+.blk-casa__ico{flex:none;display:inline-flex;width:2.2rem;height:2.2rem;color:var(--pulse)}
+.blk-casa__ico svg{width:100%;height:100%}
+.blk-casa__fatos strong{display:block;font-family:var(--f-display);font-size:1.35rem;font-weight:500;line-height:1.2;color:var(--brand)}
+.blk-casa__fatos span:not(.blk-casa__ico){display:block;margin-top:.2rem;font-size:var(--t-sm);line-height:1.55;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-casa__grid{grid-template-columns:5fr 6fr;gap:var(--sp-6,6rem);align-items:center}
+  .blk-casa__foto img{aspect-ratio:4/5}
+}
+</style>
